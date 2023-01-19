@@ -1,0 +1,7 @@
+1. socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+2. In python they're the same object. 
+   We use them differently depending on if we want to use it as a client socket or server socket.
+3. We can use SO_REUSEPORT. e.g. s.setsockopt(socket.SOL_SOCKET, socket.SO_REUPORT, 1)
+4. Adress and port of client.
+5. Once the request is done being sent recv will return 0.
+6. 
