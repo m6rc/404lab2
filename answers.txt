@@ -4,4 +4,4 @@
 3. We can use SO_REUSEPORT. e.g. s.setsockopt(socket.SOL_SOCKET, socket.SO_REUPORT, 1)
 4. Adress and port of client.
 5. Once the request is done being sent recv will return 0.
-6. 
+6. https://github.com/m6rc/404lab2
